@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! Welcome to our coffee shop.",
+        "Hello, thanks for stopping by! How can I assist you today?",
+        "Hi there! What can I get started for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Thanks for visiting! Come back soon!",
+        "See you later! Enjoy your coffee!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What’s on the menu?"
+      ],
+      "responses": [
+        "We offer a variety of coffees, teas, and baked goods. Anything specific you're looking for?",
+        "Our menu includes freshly brewed coffee, teas, pastries, and more."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and PayPal.",
+        "You can pay using credit cards, debit cards, or PayPal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Our delivery typically takes 1 hour.",
+        "Shipping usually takes between 1 hour."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "product_price",
+      "patterns": [
+        "How much is a cup of coffee?",
+        "What’s the price of a latte?",
+        "Can you tell me the cost of a brewed tea?"
+      ],
+      "responses": [
+        "The price of a regular coffee starts at $2.50. What size would you like?",
+        "A latte is $3.75 for a small. Would you like to add anything else?",
+        "Our brewed tea is $2.25 for a small cup."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend?",
+        "Can you suggest something?",
+        "What’s popular here?"
+      ],
+      "responses": [
+        "Our Ethiopia Rg is a customer favorite, starting at $3.00.",
+        "I’d recommend our Spicy Eye Opener Chai for $3.10. It’s a perfect start to your day!",
+        "How about our Old Time Diner Blend? It’s only $2.00 for a small."
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "I like to order a coffee.",
+        "Can I get a muffin and a coffee?",
+        "I want to place an order."
+      ],
+      "responses": [
+        "Sure! A coffee and muffin combo sounds great. The total is $5.00.",
+        "Your order for a coffee has been placed. Would you like to add anything else?",
+        "Got it! One coffee coming right up. What else can I get for you?"
+      ]
+    }
+  ]
+}
